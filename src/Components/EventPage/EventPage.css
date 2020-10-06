@@ -1,0 +1,30 @@
+.row{
+    display: flex;
+}
+.single-event {
+    float: left;
+    display: flex;
+    box-shadow: 0px 0px 20px lightgrey;
+    border-radius: 10px;
+    padding: 12px;
+    width: 500px;
+    margin: 24px;
+    margin-top: 20px;
+    height: 166px;
+}
+.single-event img{
+    width: 130px;
+    float: left;
+    margin-right: 20px;
+    height: 136px;
+}
+.single-event h6, .single-event p{
+    text-align: left;
+}
+.single-event p{
+    margin-bottom: 3px;
+}
+.single-event button{
+    display: block;
+    text-align: left;
+}

@@ -1,0 +1,7 @@
+.navbar img{
+    width: 200px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 400;
+}

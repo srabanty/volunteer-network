@@ -1,0 +1,40 @@
+.login-background{
+    background-color: #F9FAFC;
+    height: 100vh;
+}
+.login img{
+    width: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.googleLogIn{
+    background-color: white;
+    border: 1px solid gray;
+    width: 500px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.googleLogIn h4{
+    padding-bottom: 20px;
+}
+.googleLogIn button{
+    background-color: white;
+    width: 350px;
+    border: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.googleLogIn img{
+    width: 20px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.googleLogIn p{
+    padding-top: 30px;
+}
+.googleLogIn p a{
+    color: red;
+}

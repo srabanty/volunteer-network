@@ -1,0 +1,38 @@
+.admin{
+    float: left;
+}
+.admin img{
+    width: 150px;
+    margin-bottom: 30px;
+    text-align: left;
+    display: block;
+}
+.admin .icon {
+    width: 20px;
+    color: blue;
+    margin-right: 0px;
+    position: relative;
+    top: 22px;
+    margin-bottom: 0px;
+    height: 20px;
+}
+.admin p{
+    text-align: left;
+    padding-left: 0px;
+}
+.admin a{
+    position: relative;
+    right: 15px;
+}
+.register-list{
+
+}
+.register-list-items{
+    background-color: lightgray;
+}
+.register-list-items img{
+    width: 30px;
+}
+.admin-page{
+    display: flex;
+}
