@@ -10,14 +10,14 @@ const EventPage = () => {
     const [loggedInUser,setLoggedInUser]= useContext(UserContext);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/events?email='+loggedInUser.email)
+        fetch('https://evening-fjord-13433.herokuapp.com/events?email='+loggedInUser.email)
         .then(res=>res.json())
         .then(data=> setEvents(data));
     },[])
 
     function deleteEvent(id){
         console.log(id);
-        fetch(`http://localhost:5000/delete/${id}`,{
+        fetch(`https://evening-fjord-13433.herokuapp.com/delete/${id}`,{
             method  : 'DELETE'
         })
         .then(res => res.json())

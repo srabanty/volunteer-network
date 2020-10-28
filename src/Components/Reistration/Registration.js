@@ -28,7 +28,7 @@ const Registration = () => {
         const handleSubmittedInfo =()=>{
             console.log(input);
              history.push('/events');
-            fetch('http://localhost:5000/addEvents',{
+            fetch('https://evening-fjord-13433.herokuapp.com/addEvents',{
                method: 'POST', 
                headers: {'Content-Type': 'application/json'},
                body: JSON.stringify(input)

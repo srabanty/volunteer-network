@@ -8,7 +8,7 @@ const Admin = () => {
     const [user, setUser]= useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/volunteer')
+        fetch('https://evening-fjord-13433.herokuapp.com/volunteer')
         .then(res=>res.json())
         .then(data=> {
             console.log(data);
@@ -18,7 +18,7 @@ const Admin = () => {
     },[])
     function deleteEvent(id){
         console.log(id);
-        fetch(`http://localhost:5000/delete/${id}`,{
+        fetch(`https://evening-fjord-13433.herokuapp.com/delete/${id}`,{
             method  : 'DELETE'
         })
         .then(res => res.json())
